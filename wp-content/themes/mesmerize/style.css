@@ -4716,7 +4716,7 @@ a img.aligncenter {
 }
 
 #mainmenu_container {
-  display: none;
+  display: none !important;
 }
 
 @media (min-width: 768px) {
