@@ -1117,7 +1117,7 @@ button:not(.pswp__button):not(.customize-partial-edit-shortcut-button):not(.fanc
   font-size: 0.75rem;
   color: #fff;
   background-color: #03a9f4;
-  border-radius: 5px;
+  /*border-radius: 5px;*/
   min-width: 7rem;
   padding: 0.55rem 1.5rem;
   font-weight: 600;
