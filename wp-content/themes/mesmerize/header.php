@@ -23,12 +23,31 @@
         .alert{
             margin-bottom: 0px !important;
         }
+
+        .sous_btn{
+            background-color: #3F51B5 !important;
+            border-color: #3F51B5 !important;
+        }
+        .sous_btn:hover{
+            background-color: #536DFE !important;
+            border-color: #536DFE !important;
+        }
+
+        .valid_btn{
+            background-color: #009688 !important;
+            border-color: #009688 !important;
+        }
+
+        .valid_btn:hover{
+            background-color: #1DE9B6 !important;
+            border-color: #1DE9B6 !important;
+        }
     </style>
 
 	<?php wp_head(); ?>
 </head>
 
-<body <?php body_class(); ?>>
+<body <?php body_class(); ?> onload="setTimeout(cacherAlertDanger,5000);">
 
 <div  id="page-top" class="header-top">
 	<?php mesmerize_print_header_top_bar(); ?>
